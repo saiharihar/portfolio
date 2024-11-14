@@ -1,0 +1,96 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5722; /* Hover color for links */
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom in effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #212529; /* Darker footer on hover */
+}
+
+.card-hover {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+}
+
+/* Custom Colors */
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+/* Form Styling */
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
